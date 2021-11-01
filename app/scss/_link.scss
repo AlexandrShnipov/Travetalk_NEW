@@ -1,0 +1,23 @@
+.link {
+    border: 1px solid transparent;
+    transition: all .5s;
+
+    &:hover {
+        opacity: 0.8;
+        border: 1px solid rgb(140, 64, 240);
+    }
+}
+
+.logo__link {
+    font-family: Larsseit_bold, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    letter-spacing: -0.035em;
+    color: #62D0DF;
+}
+
+.section__link {
+    font-family: Larsseit_bold, sans-serif;
+    font-size: 1rem;
+    line-height: 1.25;
+}
