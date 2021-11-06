@@ -87,7 +87,7 @@
 .menu {
     @media (max-width:767px) {
         position: fixed;
-        bottom: 178%;
+        top: -100%;
         left: 0;
         padding-right: 0;
         width: 100%;
@@ -101,58 +101,11 @@
         z-index: 3;
 
         &.active {
-            bottom: 44%;
+            top: 0;
         }
     }
 
-    @media (max-width:500px) and (min-height:800px) {
-        &.active {
-            bottom: 48%;
-        }
-    }
-
-    @media (max-width:400px) {
-        &.active {
-            bottom: 35%;
-        }
-    }
-
-    @media (max-width:420px) and (min-height:800px) {
-        &.active {
-            bottom: 48%;
-        }
-    }
-
-    @media (max-width:350px) {
-        &.active {
-            bottom: 28%;
-        }
-    }
-
-    @media (max-width:350px) and (min-height:800px) {
-        &.active {
-            bottom: 48%;
-        }
-    }
-
-    @media (max-width:310px) and (min-height:800px) {
-        &.active {
-            bottom: 49%;
-        }
-    }
-
-    @media (max-width:300px) {
-        &.active {
-            bottom: 37%;
-        }
-    }
-
-    @media (max-width:300px) and (min-height:800px) {
-        &.active {
-            bottom: 49%;
-        }
-    }
-
+  
     &__list {
         display: flex;
         max-width: 19em;
